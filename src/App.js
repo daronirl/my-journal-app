@@ -1,10 +1,28 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Nav from './components/Nav'
+import Main from './components/Main'
+import data from './components/data'
 
 function App() {
-  return (
-    <Nav />
 
+  const column = data.map((item) => {
+    
+      return (
+      <>
+        <Main 
+          key={item.id}
+          item={item}
+        />
+  </>
+      )
+  })
+
+  return (
+    <>
+    <Nav />
+    {column}
+    
+    </>
   )
 }
 
