@@ -6,7 +6,7 @@ export default [
         location: "Nevada",
         googleMapsUrl: "https://goo.gl/maps/tLn5PQjvYj1pRkG49",
         description: "Laughlin is a fun place to visit on vacation. They have drinking, gambling, jet skiing, and hiking to name a few",
-        imageUrl: "https://unsplash.com/photos/IEwYM1rzIMU"
+        imageUrl: "lnv.jpg"
     }
 
 

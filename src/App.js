@@ -7,15 +7,15 @@ function App() {
 
   const column = data.map((item) => {
     
-      return (
+   return (
       <>
         <Main 
           key={item.id}
           item={item}
         />
-  </>
-      )
-  })
+     </>
+    )
+ })
 
   return (
     <>
