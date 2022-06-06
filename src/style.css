@@ -25,7 +25,18 @@
 
 .col--1 {
     display: flex;
-    
+   
 }
 
+.loc--name {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+
+.google--map, a {
+    font-size: 1rem;
+    color: #827f7f 
+    
+}
 /* END MAIN CSS */

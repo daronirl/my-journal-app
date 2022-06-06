@@ -10,13 +10,34 @@ function Main(props) {
       <Row>
         <Col className='col--1'>
            <img src={`./images/${props.item.imageUrl}`} className='l--nv'/>
-                <h3>{props.item.title} <span className='google--map'><a href={props.item.googleMapsUrl} target="_blank">View on Google Maps</a></span></h3>
-                {props.item.location}
-                {props.item.description}
+               <div className='card--info'>
+                <h4 className='loc--name'>{props.item.location} <a href={props.item.googleMapsUrl} target="_blank">
+                  <span className='google--map'>View on Google Maps</span></a></h4>
+                     <h2>{props.item.title}</h2>
+                        <p>{props.item.description}</p>
+            </div>
        
        </Col>
-       <Col>1 of 1</Col>
-       <Col>1 of 1</Col>
+       <Col className='col--1'>
+           <img src={`./images/${props.item.imageUrl}`} className='l--nv'/>
+               <div className='card--info'>
+                <h4 className='loc--name'>{props.item.location} <a href={props.item.googleMapsUrl} target="_blank">
+                  <span className='google--map'>View on Google Maps</span></a></h4>
+                     <h2>{props.item.title}</h2>
+                        <p>{props.item.description}</p>
+            </div>
+       
+       </Col>
+       <Col className='col--1'>
+           <img src={`./images/${props.item.imageUrl}`} className='l--nv'/>
+               <div className='card--info'>
+                <h4 className='loc--name'>{props.item.location} <a href={props.item.googleMapsUrl} target="_blank">
+                  <span className='google--map'>View on Google Maps</span></a></h4>
+                     <h2>{props.item.title}</h2>
+                        <p>{props.item.description}</p>
+            </div>
+       
+       </Col>
     </Row>
   </Container>
   )
