@@ -18,25 +18,30 @@
 }
 
 .col--whole {
-  display: flex;
-  justify-content: center;
-
+    
+    
 }
 
 .col--1 {
-    display: flex;
+   
+   
+    
    
 }
 
 .loc--name {
     font-size: 1.2rem;
     font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 
 .google--map, a {
     font-size: 1rem;
-    color: #827f7f 
+    color: #827f7f;
+    text-decoration: none; 
     
 }
 /* END MAIN CSS */
