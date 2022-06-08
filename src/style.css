@@ -12,22 +12,12 @@
 
 
 /* MAIN CSS */
-.l--nv {
+.pic--loc {
     width: 200px;
     border-radius: 1rem;
 }
 
-.col--whole {
     
-    
-}
-
-.col--1 {
-   
-   
-    
-   
-}
 
 .loc--name {
     font-size: 1.2rem;
@@ -45,3 +35,25 @@
     
 }
 /* END MAIN CSS */
+
+
+
+
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 768px) {
+    
+    .col--whole {
+        width: 80%;
+    }
+    
+    .col--1 {
+        display: flex;
+    }
+
+    .loc--name {
+        display: block;
+    }
+
+    
+  }
