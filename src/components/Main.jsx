@@ -17,9 +17,9 @@ function Main(props) {
                          <p className='desc'>{props.item.description}</p>
                    </div>
        
-          </Col>
-        </Row>
-  </Container>
+             </Col>
+          </Row>
+</Container>
   
 
   

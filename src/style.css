@@ -16,7 +16,16 @@
 .pic--loc {
     width: 200px;
     border-radius: 1rem;
+ 
+    
 }
+
+
+.pic--loc:hover {
+    -webkit-filter: blur(1px); 
+    filter: blur(1px);
+}
+
 
     
 
