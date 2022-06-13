@@ -1,4 +1,5 @@
 
+
 /* NAV CSS */
 .header--name {
     font-size: 0.9em;
@@ -45,6 +46,7 @@
     
     .col--whole {
         width: 80%;
+        
     }
     
     .col--1 {
@@ -55,5 +57,38 @@
         display: block;
     }
 
+    .card--info {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .desc {
+        width: 85%;
+        margin: 0 auto;
+        text-align: left;
+        
+    }
+
+    
+  }
+
+
+  @media screen and (min-width: 1440px) {
+    
+    .desc {
+        width: 65%;
+        margin: 0 auto;
+    }
+    
+  }
+
+  @media screen and (min-width: 820px) {
+    
+    .desc {
+        width: 85%;
+        margin: 0 auto;
+        text-align: left;
+    }
     
   }
