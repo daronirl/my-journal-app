@@ -1,4 +1,7 @@
-
+body {
+    font-family: 'Fascinate';
+    font-family: 'Inter', sans-serif;
+}
 
 /* NAV CSS */
 .header--name {
